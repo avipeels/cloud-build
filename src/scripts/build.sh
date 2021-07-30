@@ -1,0 +1,1 @@
+cross-env BABEL_ENV=build BABEL_MODULES=true babel src --out-dir dist --config-file ./babel.config.js --delete-dir-on-start --no-comments
