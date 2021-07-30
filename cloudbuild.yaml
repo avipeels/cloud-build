@@ -18,6 +18,9 @@ steps:
     entrypoint: yarn
     args: ["install"]
   # Run custom commands
+   - name: node
+    entrypoint: yarn
+    args: ["run", "artifactregistry-login"]
   - name: node
     entrypoint: yarn
     args: ["run", "buildsdk"]
