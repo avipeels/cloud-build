@@ -24,3 +24,6 @@ steps:
   - name: node
     entrypoint: yarn
     args: ["run", "buildsdk"]
+  - name: node
+    entrypoint: npm
+    args: ["publish"]
